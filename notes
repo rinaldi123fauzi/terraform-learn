@@ -1,0 +1,13 @@
+Install Terraform on Linux
+    https://www.terraform.io/downloads
+
+codes :
+1. terraform init (untuk running file main.tf)
+2. sudo apt install tree 
+3. terraform init -upgrade (untuk upgrade version)
+4. terraform destroy (untuk menghapus all resources)
+5. terraform plan (untuk melihat plan resources yang pending install)
+6. terraform plan -out=plan1 (option untuk save this plan)
+7. terraform apply (untuk eksekusi install plan)
+8. terraform apply plan1 (untuk eksekusi install plan spesifik)
+9. terraform plan -destroy
